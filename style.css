@@ -1,0 +1,306 @@
+#header{
+    background-color:grey;
+    color:white;
+}
+.section{
+    padding-top:15px ;
+    padding-bottom:15px ;
+}
+
+.section  .head-section{
+color:#000;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section  .head-section:after{
+    background-color:red ;
+    content: "";
+    display: block;
+    width:100px;
+    height:3px;
+    text-align: center;
+    margin:20px auto;
+}
+
+#testimonials{
+    background-image:url('/images/unsplash.jpg');
+    background-size: cover;
+    padding: 50px o;
+    position: relative;
+    color:white;
+}
+
+
+#menu{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu h1{
+    font-size: 1.5rem;
+}
+#logo{
+    margin-top:5px;
+}
+
+h1{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#iconss{
+    border-radius: 50%;
+}
+
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    display: block;
+    padding: 5px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 17px;
+
+}
+
+
+#menu li a:hover{
+    background-color: brown;
+}
+
+#banner{
+    background-image: url('../images/last.avif');
+    background-size: cover;
+}
+
+.banner-title h1{
+    background:rgba(255,255,255,0.8);
+    display: inline-block;
+    padding: 10px;
+    margin:0;
+}
+.banner-title{
+    margin-top:5rem;
+}
+
+.title.p{
+    background-color: brown;
+}
+
+.banner-title p.lead{
+    color:0fff;
+    background-color: rgba(231,76,60,0.7);
+    padding: 10px;
+    color:white;
+}
+
+.service-box{
+    text-align: center;
+}
+
+.service-box i{
+    color:#e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+#testimonials::before{
+    background-color: rgba(52,73,94,0.7);
+    content:("");
+    position: absolute;
+    top:0;
+    width:100%;
+    height:100% ;
+}
+
+.test{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.testimonail img{
+    border-radius: 50%;
+}
+
+.testimonial img{
+    border-radius: 50%;
+}
+
+
+
+.section  .test:after{
+    background-color:brown ;
+    content: "";
+    display: block;
+    width:100px;
+    height:3px;
+    text-align: center;
+    margin:20px auto;
+}
+ a{
+    text-decoration: none;
+    color:gray;
+    font-size: 14px;
+
+}
+a i{
+    margin-left: 5px;
+}
+
+.news-post img{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.news-post h3{
+    font-size:1.35rem;
+    
+}
+
+.news-post h3 a{
+    color:red;
+}
+
+.post-date {
+    font-size:13px;
+    margin-bottom: 2px;
+}
+
+.post-date i{
+    margin-right: 5px;
+}
+
+#footer-sidebar{
+    color:#fff;
+    background: #34495e;
+    padding: 20px 0;
+}
+
+.foot-widget h4:after{
+    content: "";
+    background: #fff;
+    display:block;
+    width:50px;
+    height:2px;
+    margin: 5px 0;
+
+}
+
+.foot-widget a{
+    color:#fff;
+}
+
+.latest-news{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.latest-news li {
+    margin-bottom:3px;
+
+}
+
+.latest-news i{
+    margin-top: 10%px;
+}
+.foot-widget {
+    font-size: 1.2rem;
+}
+
+#social-icons li{
+    list-style: none;
+    display: inline-block;
+    padding-left:5px;
+    margin-top: 10%;
+
+   
+
+}
+
+#social-icons{ margin-left: 1%;
+    COLOR:WHITE;
+    
+}
+#footer{
+    background: grey;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+
+#social-icons li a{
+    color:white;
+    text-align: center;
+    font-size: 23px;
+   
+}
+
+#menu {
+    margin-left: 15%;
+    
+    
+}
+#menu a{
+    font-size: 15px;
+}
+
+@media (max-width:992px){
+    .news-post{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width:768px){
+    #logo{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .banner-title h1{
+        font-size: 1.7rem;
+    }
+    #menu{
+        text-align: center;
+    }
+    .section{
+        padding-top:40px ;
+        padding-bottom:40px ;
+    }
+    
+    .testimonail{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .service-box{
+        margin-bottom: 30px;
+    }
+    .news-post{
+        margin-bottom: 30px;
+    }
+    .foot-widget{
+        margin-bottom: 20px;
+    }
+    #footer{
+        text-align: center;
+    }
+    #social-icons{
+        margin-top: 10px;
+    }
+    #menu li a{
+        margin-bottom: 20px;
+    }
+    .banner-title{
+        padding-top:0;
+    }
+}
